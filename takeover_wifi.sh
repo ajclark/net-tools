@@ -5,6 +5,7 @@
 # This can be added to crontab on the gl-x3000 in advanced settings
 # */5 * * * * /root/takeover_wifi.sh
 # Note: This script intentionally does not handle 'failback' when the $TARGET_SSID resumes broadcasting on another AP, e.g. Unifi.
+# The intended wifi interface also has to be UP for scanning to work. It can be set to an arbitrary SSID. 
 
 # Configuration
 SLACK_WEBHOOK_URL=""  # Add your Slack webhook URL here
