@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This script is designed to takeover a $TARGET_SSID when it is no longer broadcasting. Useful for a LTE backup router. 
-# If the target SSID is not found after a series of scan attempts, the script will configure the device to use the target SSID and notify via Slack.
+# If the target SSID is not found after a series of scan attempts, the script will configure the gl-x3000 to use the target SSID and notify via Slack.
 # This can be added to crontab on the gl-x3000 in advanced settings
 # */5 * * * * /root/takeover_wifi.sh
 # Note: This script intentionally does not handle 'failback' when the $TARGET_SSID resumes broadcasting on another AP, e.g. Unifi.
