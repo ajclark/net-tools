@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# This script is designed to send notifications to Slack based on UPS events.
+# This script is designed to send notifications to Slack based on UPS events. 
+# The NUT UPS tools must be installed and configured.
 # This has been tested with a pair of CyberPower 1500VA UPSes.
 # cat /etc/nut/upsmon.conf
 # MONITOR nas@localhost 1 upsmon upsmon master
