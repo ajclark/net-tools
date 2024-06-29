@@ -2,7 +2,7 @@
 Misc Network tools for home monitoring. 
 
 ## takeover_wifi.sh 
-<img width="668" alt="takeover_wifi.sh" src="https://github.com/ajclark/net-tools/assets/238168/06263749-ea43-4583-824c-bdc051658a72">
+<img width="668" alt="takeover_wifi.sh" src="https://github.com/ajclark/net-tools/assets/238168/6aaace60-cb9d-4a6c-9760-725f03c17e0e">
 
 
 ## nut_slack_alert.sh
